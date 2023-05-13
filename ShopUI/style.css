@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.background {
+    position: fixed;
+    background-color: rgb(51, 51, 51);
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    margin-left: 700px;
+    margin-top: 300px;
+}
+
+.xbutton {
+    position: fixed;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(161, 161, 161);
+    background-color: rgba(29, 29, 29, 0.788);
+    border: 0px;
+    border-radius: 5px;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+.xbutton:hover {
+    color: rgb(255, 255, 255);
+    transition: 500ms;
+}
+
+.shopname {
+    position: fixed;
+    color: rgb(219, 219, 219);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    border-bottom: 3px solid rgba(29, 29, 29, 0.788);
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.infotext {
+    position: fixed;
+    color: rgb(219, 219, 219);
+    font-family: 'Roboto', sans-serif;
+    margin-left: 40px;
+    margin-top: 125px;
+}
+
+.box1 {
+    position: fixed;
+    width: 450px;
+    height: 100px;
+    background-color: rgba(29, 29, 29);
+    border-radius: 15px;
+    margin-left: 25px;
+    margin-top: 150px;
+}
+
+.angabe {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+    color: rgb(219, 219, 219);
+    font-size: 15px;
+    width: 400px;
+    border-bottom: 3px solid rgb(51, 51, 51);
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.angabe:focus {
+    outline: none;
+}
+
+.submit {
+    position: fixed;
+    background-color: rgb(51, 51, 51);
+    color: rgb(219, 219, 219);
+    font-family: 'Roboto', sans-serif;
+    border: 0px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+.submit:hover {
+    color: rgb(255, 255, 255);
+    transition: 500ms;
+}
